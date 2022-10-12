@@ -25,6 +25,8 @@
 
 {{ else if .Params.featuredImage }}
   {{ .Scratch.Set "image" (.Params.featuredImage | absURL) }}
+{{ else if .Params.mp4podcastImage }}
+  {{ .Scratch.Set "image" (.Params.mp4podcastImage | absURL) }}
 {{ else if .Params.mp4videoImage }}
   {{ .Scratch.Set "image" (.Params.mp4videoImage | absURL) }}
 {{ else }}
