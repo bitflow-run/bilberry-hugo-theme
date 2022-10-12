@@ -31,7 +31,7 @@
     {{- else if eq .Type "link" -}}
         {{- $iconClass = "fa-link" -}}
     {{- else if eq .Type "podcast" -}}
-        {{- $iconClass = "fa-podcast" -}}
+        {{- $iconClass = "fa-microphone" -}}
     {{- else if eq .Type "video" -}}
         {{- $iconClass = "fa-video" -}}
     {{- else if or (eq .Type "gallery") (eq .Type "picture") -}}
