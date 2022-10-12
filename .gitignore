@@ -156,3 +156,4 @@ testing/testing-example-site/themes
 
 # IntelliJ IDEA
 *.iml
+yarn.lock
